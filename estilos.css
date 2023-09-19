@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    width: 340px;
+    height: 120px;
+    margin-left: 3%;
+}
+
+#footer {
+    background-color: hwb(0 3% 69% / 0.877);
+    text-align: center;
+}
+
+.social-icons{
+    font-size: 2vw;
+    text-align: center;
+    width: 100%;
+}
+.fa, .fab{
+    color: #fff;
+}
+p{
+    color: #fff;
+}
