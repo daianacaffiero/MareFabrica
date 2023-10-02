@@ -7,6 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!--Link de Boostrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!--Link de Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,600&display=swap" rel="stylesheet">
     <!--Link de FontAwesome-->
     <script src="https://kit.fontawesome.com/24d3b6d56b.js" crossorigin="anonymous"></script>
     <!--BoxIcon-->
@@ -21,7 +25,7 @@
 <!-- Nav Bar  -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <a class="navbar-brand" href="index.html">
-        <img src="img/Fábrica.png" alt="logo de marca" width=90% height=90%>
+        <img src="img/Fábrica.png" alt="logo de marca" width=70% height=70%>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -53,7 +57,7 @@
     </div>
   </nav>
 
-<!-- Home-->
+<!-- Home--> <!--VER COMO ACHICAR EL CAROUSEL-->
 <section id="home">
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators"> 
@@ -84,7 +88,24 @@
 </section>
 <!-- Section Nosotros -->
 <section id="nosotros">
-
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row g-0">
+        <div class="col-lg-4">
+          <img src="img/Fábrica.png" class="img-fluid rounded-start" alt="imagenFábrica">
+        </div>
+        <div class="col-lg-8">
+          <div class="card-body">
+            <h5 class="card-title">Quienes Somos</h5>
+            <p class="card-text">Fábrica de ropa de Trabajo.</p>
+            <p class="card-text">Somos una fábrica Marplatense especializada en la confección de ropa de trabajo de alta calidad. <br> Nuestra misión es proporcionar soluciones funcionales y seguras para quienes desempeñan trabajos exigentes. Cada prenda que producimos se diseña pensando en la comodidad, la durabilidad y la protección de quienes la usan. Con años de experiencia en la industria, nos enorgullecemos de ofrecer un amplio catálogo de prendas, desde uniformes industriales hasta equipo de protección personal, que cumplen con los estándares más exigentes. <br> En nuestra fábrica, la calidad es nuestra prioridad, y trabajamos incansablemente para satisfacer las necesidades de nuestros clientes y garantizar su seguridad en el lugar de trabajo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+      <video src="img/video-nosotros.mp4"controls></video>
+      </div>
+  </div>
+    </div>
 </section>
 <!-- Section Catalogo -->
 <section id="catalogo">
@@ -98,22 +119,40 @@
 <section id="lavado">
 
 </section>
+
 <!-- Contacto-->
 <section id="contacto">
-
+  <div class="row g-0">
+    <div class="col-lg-6" style="padding: 5%;">
+      <ul>
+        <h4>Estamos en contacto</h4>
+        <h6>Contactanos para pedir tu presupuesto personalizado de ropa de trabajo. </h6>
+        <a href="#mardel" target="_blank"><li><i class='bx bx-map'></i> Mar del Plata, prov. de Buenos Aires, Argentina.</li></a>
+        <a href="#tel" target="_blank"><li><i class='bx bx-phone-call'></i> +54 9 223-444 4444</li></a>
+        <a href="#mail" target="_blank"><li><i class='bx bx-envelope' ></i> mare-fabrica@gmail.com</li></a>
+    </ul>
+      <h4>Seguinos en nuestras redes</h4>
+      <a class="icon-redes" href="#instagram" target="_blank"><i class='bx bxl-instagram'></i></a>
+      <a class="icon-redes" href="#facebook" target="_blank"><i class='bx bxl-facebook'></i></a>
+      <a class="icon-redes" href="#whatsapp" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+    </div>
+  <div class="col-lg-6">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXZcsTVt0esEkYjjvY3EdlNbs3oNgJtUFZxOIn5-AtbQ5Ssw/viewform?embedded=true" width="660" height="660" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+  </div>
+  </div>
 </section>
 
 <footer id="footer">
     <div class="container-fluid">
         <!-- Iconos redes sociales -->
-        <div class="social-icons mt-4">
+        <div class="social-icons mt-2">
             <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="#" target="_blank"><i class="fab fa-brands fa-instagram"></i></a>
             <a href="#" target="_blank"><i class="fa fa-solid fa-envelope"></i></a>
             <a href="https://wa.me/549223----" target="_blank"><i class="fa fa-brands fa-whatsapp"></i></a> 
         </div>
     </div>
-        <p>Desarrollado con <i class='bx bx-heart'></i> por C&C Design -2023&copy;</p>
+        <p>Desarrollado con <i class='bx bx-heart'></i>por C&C Design -2023&copy;</p>
 </footer>
 </body>
 </html>
