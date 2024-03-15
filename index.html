@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link de Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <!--Link de Boostrap js-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!--Link de Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +23,9 @@
 <body>
 
 <!-- Nav Bar  -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+<nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
     <a class="navbar-brand" href="index.html">
-        <img src="img/Fábrica.png" alt="logo de marca" width=70% height=70%>
+        <img src="img/1-logoFábrica.png" alt="logo de marca">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -64,16 +64,24 @@
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="2000">
-        <img src="img/foto1.jpg" class="d-block w-100" alt="...">
+        <img src="img/Carrousel Mare fabrica.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="img/foto2.jpg" class="d-block w-100" alt="...">
+        <img src="img/2.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="img/foto3.jpg" class="d-block w-100" alt="...">
+        <img src="img/3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/4.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/5.png" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -88,36 +96,216 @@
 </section>
 <!-- Section Nosotros -->
 <section id="nosotros">
-    <div class="card mb-3" style="max-width: 100%;">
+    <div class="card mb-3 sin-borde" style="max-width: 100%;">
       <div class="row g-0">
-        <div class="col-lg-4">
+        <div class="col-lg-6">
           <img src="img/Fábrica.png" class="img-fluid rounded-start" alt="imagenFábrica">
-        </div>
-        <div class="col-lg-8">
-          <div class="card-body">
-            <h5 class="card-title">Quienes Somos</h5>
+          <h5 class="card-title">Quienes Somos</h5>
             <p class="card-text">Fábrica de ropa de Trabajo.</p>
             <p class="card-text">Somos una fábrica Marplatense especializada en la confección de ropa de trabajo de alta calidad. <br> Nuestra misión es proporcionar soluciones funcionales y seguras para quienes desempeñan trabajos exigentes. Cada prenda que producimos se diseña pensando en la comodidad, la durabilidad y la protección de quienes la usan. Con años de experiencia en la industria, nos enorgullecemos de ofrecer un amplio catálogo de prendas, desde uniformes industriales hasta equipo de protección personal, que cumplen con los estándares más exigentes. <br> En nuestra fábrica, la calidad es nuestra prioridad, y trabajamos incansablemente para satisfacer las necesidades de nuestros clientes y garantizar su seguridad en el lugar de trabajo.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="card-body">
+            <video src="img/VideoConMusica.mp4"controls></video>
           </div>
         </div>
       </div>
-      <div class="col-lg-12">
-      <video src="img/video-nosotros.mp4"controls></video>
-      </div>
-  </div>
     </div>
+   
 </section>
 <!-- Section Catalogo -->
 <section id="catalogo">
+<div class="row catalogo">
+    <div class="col catalogo -sm-6 mb-3 mb-sm-0">
+      <div class="card catalogo">
+        <img src="img/pantalones.jpg" class="card-img-top" alt="sección pantalones">
+      <div class="card-body">
+        <h3 class="card-title">Pantalones</h3>
+        <!-- <a href="#" class="btn btn-secondary btn-sm">Ver más</a> -->
 
+        <!-- Botón para abrir el modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver más</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Pantalon cargo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="catalogo" src="img/pantalones.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img class="catalogo" src="img/pantalonChino.webp" class="d-block w-100" alt="...">
+            </div>
+            <!-- Agregar más elementos carousel-item según la cantidad de imágenes -->
+          </div>
+          <!-- Botones de control -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+      </div>
+    </div>
+
+  <div class="col -sm-6 mb-3 mb-sm-0">
+    <div class="card catalogo">
+      <img src="img/camperas.jpg" class="card-img-top" alt="sección camperas">
+      <div class="card-body">
+        <h3 class="card-title">Camperas</h3>
+        <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col -sm-6 mb-3 mb-sm-0">
+    <div class="card catalogo">
+      <img src="img/buzos.jpg" class="card-img-top" alt="sección buzos">
+      <div class="card-body">
+        <h3 class="card-title">Buzos</h3>
+        <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col -sm-6 mb-3 mb-sm-0">
+    <div class="card catalogo">
+      <img src="img/remeras.jpg" class="card-img-top" alt="sección remeras">
+      <div class="card-body">
+        <h3 class="card-title">Remeras</h3>
+        <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row catalogo2">
+  <div class="col catalogo -sm-6 mb-3 mb-sm-0">
+    <div class="card catalogo">
+      <img src="img/chomba.jpg" class="card-img-top" alt="sección chombas">
+      <div class="card-body">
+        <h3 class="card-title">Chombas</h3>
+        <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col -sm-6 mb-3 mb-sm-0">
+    <div class="card catalogo">
+      <img src="img/camisas.jpg" class="card-img-top" alt="sección camisas">
+      <div class="card-body">
+        <h3 class="card-title">Camisas</h3>
+        <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
+      </div>
+   </div>
+  </div>
+
+  <div class="col -sm-6 mb-3 mb-sm-0">
+    <div class="card catalogo">
+      <img src="img/delantal.jpg" class="card-img-top" alt="sección delantales">
+      <div class="card-body">
+        <h3 class="card-title">Delantales</h3>
+        <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col -sm-6 mb-3 mb-sm-0">
+    <div class="card catalogo">
+      <img src="img/accesorios.jpg" class="card-img-top" alt="sección accesorios">
+      <div class="card-body">
+        <h3 class="card-title">Accesorios</h3>
+        <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
+      </div>
+    </div>
+  </div>
+</div>
 </section>
 <!-- Section Toma de Talles  -->
 <section id="talles">
+  <div><!--Div Talles-->
+   <div class="row medidas">
+    <div class="col-lg-7">
+      <h5>Medidas y Talles</h5>
+      <h3>Guía de talles: Cómo seleccionar el tamaño correcto</h3>
+      <p class="talles">Ofrecemos tablas de tallas para ayudarte a elegir el tamaño correcto de tus prendas según tus propias medidas corporales. Es importante tener en cuenta que las medidas en las tablas corresponden a tu cuerpo, NO a la prenda en sí. <br>Para tomar medidas precisas, solo necesitas un centímetro flexible. Es recomendable medirse usando solo ropa interior o prendas ajustadas. Al medir, asegúrate de que la cinta esté un poco ajustada, pero no apretada; no debe hundirse ni marcar la piel.<br>Todas las medidas se presentan en centímetros y son medidas de tu propio cuerpo, no de la prenda. Nuestra tabla es solo una guía para encontrar la talla que necesitas. Recuerda que probar las prendas siempre es la mejor manera de encontrar el ajuste perfecto.<br>Ofrecemos la opción de enviar muestras finales en todos los tamaños para garantizar el pedido correcto de prendas. Podemos confeccionar una muestra final de cada tamaño y enviarla anticipadamente para que se tomen las medidas adecuadas. Esto le permite reunir a su personal en un horario conveniente para recopilar la información necesaria.<br>Para elegir esta alternativa, es necesario que el pedido sea de una cantidad significativa que justifique el proceso, y que la compra esté confirmada de manera sólida. Es importante evitar que la ropa quede demasiado ajustada para asegurar un ajuste adecuado.<br>¡Gracias por elegirnos! <br>Si tienes alguna pregunta o necesitas asistencia adicional, no dudes en contactarnos.</p>  
+    </div>
+    <div class="talles col-lg-5">
+        <img class="medidas" src="img/Toma de talles.png" alt="toma de talles masculino">
+         <!-- Button modal -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-fullscreen-xl-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Tabla de Talles Dama</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="talles" src="img/tablaTalleDama.png" alt="">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Tabla Hombre</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-fullscreen-xl-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Tabla de Talles Hombre</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img class="talles" src="img/TablaTalleHombre.png" alt="">
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Tabla Dama</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="tabla btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Tabla de talles</button>
+    </div>
+   </div>
 
+  
+  </div><!--Div Talles-->
 </section>
+
 <!-- Section Tips de Lavado-->
 <section id="lavado">
-
+  <div class="lavado">
+    <ul>
+      <h4>Tips de lavado</h4>
+      <p class="tips-lavado">Entre más cuidas tu ropa, más te dura, por eso queremos compartir algunas recomendaciones para ayudarte a alargar la vida de tu ropa de trabajo.</p>
+        <p class="tips-lavado">A continuación encontrarás los mejores tips para el mejor cuidado de tu ropa.</p>
+      <li class="lavado">Lavar con agua fría</li>
+      <li class="lavado">Usar jabones neutros</li>
+      <li class="lavado">No usar cloro</li>
+      <li class="lavado">No secar con calor</li>
+      <li class="lavado">No frotar ni planchar sobre los estampados</li>
+    </ul>
+  </div>
 </section>
 
 <!-- Contacto-->
@@ -127,32 +315,33 @@
       <ul>
         <h4>Estamos en contacto</h4>
         <h6>Contactanos para pedir tu presupuesto personalizado de ropa de trabajo. </h6>
-        <a href="#mardel" target="_blank"><li><i class='bx bx-map'></i> Mar del Plata, prov. de Buenos Aires, Argentina.</li></a>
-        <a href="#tel" target="_blank"><li><i class='bx bx-phone-call'></i> +54 9 223-444 4444</li></a>
-        <a href="#mail" target="_blank"><li><i class='bx bx-envelope' ></i> mare-fabrica@gmail.com</li></a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201170.1128177126!2d-57.76534443893311!3d-38.017181130174905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1706714464355!5m2!1ses!2sar" width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <li><i class='bx bx-map'></i> Mar del Plata, prov. de Buenos Aires, Argentina.</li>
+        <a href="https://wa.me/5492234399798" target="_blank"><li><i class='bx bx-phone-call'></i> +54 9 223-439 9798</li></a>
+        <a href="#mailto:indumentariamare@gmail.com" target="_blank"><li><i class='bx bx-envelope' ></i> indumentariamare@gmail.com</li></a>
     </ul>
       <h4>Seguinos en nuestras redes</h4>
-      <a class="icon-redes" href="#instagram" target="_blank"><i class='bx bxl-instagram'></i></a>
-      <a class="icon-redes" href="#facebook" target="_blank"><i class='bx bxl-facebook'></i></a>
-      <a class="icon-redes" href="#whatsapp" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+      <a class="icon-redes" href="https://t.me/indumentaria_mare" target="_blank"><i class='bx bxl-telegram'></i></a>
+      <a class="icon-redes" href="https://www.instagram.com/mare_fabrica" target="_blank"><i class='bx bxl-instagram'></i></a>
+      <a class="icon-redes" href="https://wa.me/5492234399798" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
     </div>
   <div class="col-lg-6">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScXZcsTVt0esEkYjjvY3EdlNbs3oNgJtUFZxOIn5-AtbQ5Ssw/viewform?embedded=true" width="660" height="660" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+    <iframe id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSc90qbwaePeW7aT0XaaUcruTReRB6CQ5-D-JSq3f62LV8fShg/viewform?embedded=true" width="90%" height="660" frameborder="0" marginheight="10" marginwidth="0"></iframe>
   </div>
   </div>
 </section>
 
-<footer id="footer">
+<footer id="footer" class="py-3" >
     <div class="container-fluid">
         <!-- Iconos redes sociales -->
-        <div class="social-icons mt-2">
-            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-brands fa-instagram"></i></a>
-            <a href="#" target="_blank"><i class="fa fa-solid fa-envelope"></i></a>
-            <a href="https://wa.me/549223----" target="_blank"><i class="fa fa-brands fa-whatsapp"></i></a> 
+        <div class="social-icons">
+            <a href="https://t.me/indumentaria_mare" target="_blank"><i class="fab fa-brands fa-telegram"></i></a>
+            <a href="https://www.instagram.com/mare_fabrica" target="_blank"><i class="fab fa-brands fa-instagram"></i></a>
+            <a href="mailto:indumentariamare@gmail.com" target="_blank"><i class="fa fa-solid fa-envelope"></i></a>
+            <a href="https://wa.me/5492234399798" target="_blank"><i class="fa fa-brands fa-whatsapp"></i></a> 
         </div>
     </div>
-        <p>Desarrollado con <i class='bx bx-heart'></i>por C&C Design -2023&copy;</p>
+        <p>Desarrollado con <i class='bx bx-heart'></i>por C&C Design -2024&copy;</p>
 </footer>
 </body>
 </html>
