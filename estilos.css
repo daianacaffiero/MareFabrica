@@ -48,9 +48,8 @@ a.nav-link:hover{
 
 /*Estilos seccion Nosotros*/
 #nosotros{
-    background-color: #eec1c1;
+    background-color: hwb(0 3% 69% / 0.082);
 }
-
 .card{
     padding-left: 10px;
     padding-bottom: 30px;
@@ -108,10 +107,14 @@ img.catalogo{
     width:70%;
     margin-inline: auto;
 }
+p.descripcionArticulo{
+    color: #000000;
+    font-size: 18px;
+}
 /*Seccion medidas, talles*/
 .row.medidas{
     margin-top: 40px;
-    background-color: hwb(0 3% 69% / 0.158);
+    background-color: hwb(0 3% 69% / 0.082);
     padding-top: 30px ;
 }
 p.talles{
@@ -144,21 +147,43 @@ img.talles{
     width: 100%;
 }
 /*Seccion Tips de lavado*/
+.row.tipslavado{
+    margin-top: 40px;
+    padding-top: 30px ;
+}
+    
 p.tips-lavado, li.lavado{
     color: #000000;
-    font-size: 16px;
+    font-size: 18px;
     opacity: 0.9;
     font-weight: 200;
     padding-left: 40px;
+    padding-top: 10px;
 }
+i.bx.bxs-washer{
+    color: #602828;
+    background-color: #fff;
+    font-size: 60px;
+}
+.img.iconos-lavado{
+    color: #602828;
+    background-color: #fff;
+    font-size: 60px;s
+}
+.img-lavado{
+   width: 90%;
+}
+/*Seccion Contacto*/
 #contacto{
     font-weight: 600;
     font-size: 18px;
     text-align: center;
+    background-color: hwb(0 3% 69% / 0.082);
 }
     ul{
     list-style: none;
     text-align:left ;
+    text-decoration: none;
 }
     li{
     margin-bottom: 10px;
@@ -169,16 +194,18 @@ p.tips-lavado, li.lavado{
     text-decoration:none;
     color: black;
 }
-
-    .bx, .bxl{
-    font-size: 2vw;
-    text-align: center;
-    color: #fff;
-    background: hwb(0 3% 69% / 0.836);
-    padding: 3px;
-    border-radius: 20px;
-    margin-right: 5px;
-}  
+    .icon-redes{
+        font-size: 3.5vw;
+        text-align: center;
+        color: hwb(0 3% 69% / 0.836);
+        margin-right: 5px;
+    }
+    .fa-solid, .fa-brands, .fab{
+        color: hwb(0 3% 69% / 0.836);
+    } 
+    .icon-redes:hover{
+        font-size: 3.1vw;
+    } 
     h4{
         font-weight: 600;
         font-size: 30px;
@@ -192,6 +219,7 @@ p.tips-lavado, li.lavado{
 iframe#form{
     margin-top: 60px;
 }
+/*Footer*/
 #footer {
     background-color: hwb(0 3% 69% / 0.877);
     text-align: center;
@@ -199,25 +227,27 @@ iframe#form{
     padding-bottom: 0;
 }
 .social-icons{
-    font-size: 1.8vw;
+    font-size: 3.5vw;
     text-align: center;
     width: 100%;
 }
 .social-icons a{
     margin-right: 6px;
 }
-.fa, .fab{
+.bx, .bxl{
     color: #fff;
+    background: none;
 }
-.fa:hover, .fab:hover{
-    font-size: 2.3vw;
+.bx:hover, .bxl:hover{
+    font-size: 3.1vw;
 }
 p{
     color: #fff;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 0;
 }
-.bx-heart{
-font-size: 1.5vw;
+.bx-heart, .fa-regular, .fa-lightbulb{
+font-size: 2vw;
 }
+
