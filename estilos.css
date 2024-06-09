@@ -51,8 +51,8 @@ a.nav-link:hover{
     background-color: hwb(0 3% 69% / 0.082);
 }
 .card{
-    padding-left: 10px;
-    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-bottom: 10px;
     background-color: transparent;
 }
 .img-fluid{
@@ -89,23 +89,44 @@ video{
     padding: 4px;
     margin-top: 2px;
     margin-bottom: 1px;
-    height: min-content;
+    max-height: min-content;
+    /* height: min-content; */
 } 
-
+.card-body{
+    padding: 8px;
+}
 .carousel-control-next-icon, 
 .carousel-control-prev-icon{
     filter: invert();
 }
-
 .carousel-item{
     text-align: center;
 }
-
 img.catalogo{
     aspect-ratio: 16/9;
     object-fit:contain;
     width:70%;
     margin-inline: auto;
+}
+h3.card-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn-primary{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: hwb(0 3% 69% / 0.836);
+    border: none;
+    max-width: max-content;
+    text-align: right;
+    justify-content: start;
+} 
+.btn-primary:hover{
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid hwb(0 3% 69% / 0.836);
+    color:  hwb(0 3% 69% / 0.836);
 }
 p.descripcionArticulo{
     color: #000000;
@@ -137,11 +158,13 @@ img.medidas{
     margin-top: 10px;
     margin-inline: 56%;
     width: max-content;
-    background-color: hwb(0 3% 69% / 0.836);border: none;
+    background-color: hwb(0 3% 69% / 0.836);
+    border: none;
   }
   .tabla.btn-primary:hover{
     background-color: #fff;
     color:  hwb(0 3% 69% / 0.836);
+    border: 1px solid hwb(0 3% 69% / 0.836);
   }
 img.talles{
     width: 100%;
@@ -150,28 +173,47 @@ img.talles{
 .row.tipslavado{
     margin-top: 40px;
     padding-top: 30px ;
-}
-    
-p.tips-lavado, li.lavado{
+}  
+p.titulo-lavado{
     color: #000000;
     font-size: 18px;
     opacity: 0.9;
     font-weight: 200;
     padding-left: 40px;
-    padding-top: 10px;
+    padding-top: 20px;
+}  
+/*tabla*/
+  table, th, td {
+    border: none;
+    padding: 8px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td {
+    width: 30%;
+    text-align: center;  
+  }
+  th{
+    text-align: left;
+    padding-left: 2px;
+    width: 60%;
+    border-right: #00000033 solid 1px;
+  }
+p.tips-lavado{
+    color: #000000;
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: 600;
+    padding-top: 0px;
 }
-i.bx.bxs-washer{
-    color: #602828;
-    background-color: #fff;
-    font-size: 60px;
+.cuidados{
+    padding-top: 2rem;
 }
-.img.iconos-lavado{
-    color: #602828;
-    background-color: #fff;
-    font-size: 60px;s
+img.iconos-lavado{
+    width: 3rem;
 }
 .img-lavado{
-   width: 90%;
+   width: 70%;
 }
 /*Seccion Contacto*/
 #contacto{
@@ -180,10 +222,12 @@ i.bx.bxs-washer{
     text-align: center;
     background-color: hwb(0 3% 69% / 0.082);
 }
+
     ul{
     list-style: none;
     text-align:left ;
     text-decoration: none;
+    padding-left: 0px;
 }
     li{
     margin-bottom: 10px;
@@ -195,7 +239,7 @@ i.bx.bxs-washer{
     color: black;
 }
     .icon-redes{
-        font-size: 3.5vw;
+        font-size: 2rem;
         text-align: center;
         color: hwb(0 3% 69% / 0.836);
         margin-right: 5px;
@@ -204,7 +248,7 @@ i.bx.bxs-washer{
         color: hwb(0 3% 69% / 0.836);
     } 
     .icon-redes:hover{
-        font-size: 3.1vw;
+        font-size: 1.8rem;
     } 
     h4{
         font-weight: 600;
@@ -227,7 +271,7 @@ iframe#form{
     padding-bottom: 0;
 }
 .social-icons{
-    font-size: 3.5vw;
+    font-size: 2rem;
     text-align: center;
     width: 100%;
 }
@@ -239,15 +283,22 @@ iframe#form{
     background: none;
 }
 .bx:hover, .bxl:hover{
-    font-size: 3.1vw;
+    font-size: 1.8rem;
 }
 p{
-    color: #fff;
-    font-weight: 200;
-    font-size: 20px;
+  color: #fff; 
+    font-weight: 200; 
+    font-size: 20px; 
     margin-bottom: 0;
 }
-.bx-heart, .fa-regular, .fa-lightbulb{
-font-size: 2vw;
+a.firma{
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.5rem;
 }
-
+.bx-heart, .fa-regular, .fa-lightbulb{
+    font-size: 1.5rem;
+}
+.bx-heart:hover, .fa-regular:hover, .fa-lightbulb:hover{
+    font-size: 1.3rem;
+}

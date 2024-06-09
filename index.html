@@ -15,10 +15,11 @@
     <script src="https://kit.fontawesome.com/24d3b6d56b.js" crossorigin="anonymous"></script>
     <!--BoxIcon-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="estilos.css">
+    
     <title>Mare Fábrica</title>
     <!--Icono de pestaña-->
     <link rel="icon" href="img/iconoMare.ico">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
@@ -118,7 +119,7 @@
   <div class="row catalogo">
     <div class="col catalogo -sm-6 mb-3 mb-sm-0"> <!-- Sección Pantalones -->
       <div class="card catalogo">
-          <img src="img/pantalones.jpg" class="card-img-top" alt="sección pantalones">
+          <img src="img/portadas-card/Pantalones.png" class="card-img-top" alt="sección pantalones">
         <div class="card text-end">
           <div class="card-body">
             <h3 class="card-title">Pantalones</h3>
@@ -174,7 +175,7 @@
 <!--               Sección Camperas            -->
     <div class="col catalogo -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-          <img src="img/camperas.jpg" class="card-img-top" alt="sección camperas">
+          <img src="img/portadas-card/Camperas.png" class="card-img-top" alt="sección camperas">
         <div class="card text-end">
           <div class="card-body ">
             <h3 class="card-title">Camperas</h3>
@@ -229,107 +230,164 @@
 <!--           Sección Buzos            -->
     <div class="col -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-          <img src="img/buzos.jpg" class="card-img-top" alt="sección buzos">
-          <div class="card text-end">  
-            <div class="card-body">
-              <h3 class="card-title">Buzos</h3>
+          <img src="img/portadas-card/Buzos.png" class="card-img-top" alt="sección buzos">
+        <div class="card text-end">  
+          <div class="card-body">
+            <h3 class="card-title">Buzos</h3>
 <!--             Botón para abrir el modal         -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleBuzosModal">Ver más</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleBuzosModal">Ver más</button>
 <!--                 Modal                       -->
-                <div class="modal fade" id="exampleBuzosModal" tabindex="-1" aria-labelledby="exampleBuzosModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <div class="modal-header">
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
+              <div class="modal fade" id="exampleBuzosModal" tabindex="-1" aria-labelledby="exampleBuzosModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
 <!--                    Carousel                      -->
-                          <div id="carouselBuzosControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img class="catalogo" src="img/buzos/buzo-promoFiesta.png" class="d-block w-100" alt="...">
-                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Buzo</h1>
-                                <p class="descripcionArticulo">Tela Polar Antipiling, logo bordado, medio cierre.</p>
-                              </div>
-                              <div class="carousel-item">
-                                <img class="catalogo" src="img/camperas/camperaPromo.png" class="d-block w-100" alt="...">
-                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Campera</h1>
-                                <p class="descripcionArticulo">Tela Polar Antipiling, logo bordado.</p>
-                              </div>
-                              <div class="carousel-item">
-                                <img class="catalogo" src="img/camperas/camperaEN.png" class="d-block w-100" alt="...">
-                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Campera Térmica</h1>
-                                <p class="descripcionArticulo">Tela Trucker resinado impermeable, interior polar antipiling.</p>
-                              </div>
-<!-- Agregar más elementos carousel-item según la cantidad de imágenes -->
+                        <div id="carouselBuzosControls" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="catalogo" src="img/buzos/buzo-promoFiesta.png" class="d-block w-100" alt="...">
+                              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Buzo</h1>
+                              <p class="descripcionArticulo">Tela Polar Antipiling, logo bordado, medio cierre.</p>
                             </div>
-<!--                        Botones de control                  -->
-                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselBuzosControls" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                              </button>
-                              <button class="carousel-control-next" type="button" data-bs-target="#carouselBuzosControls" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                              </button>
+                            <div class="carousel-item">
+                              <img class="catalogo" src="img/buzos/buzo-chi.png" class="d-block w-100" alt="...">
+                              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Buzo</h1>
+                              <p class="descripcionArticulo">Tela Deportivo Frisado, logo bordado.</p>
+                            </div>
+                            <div class="carousel-item">
+                              <img class="catalogo" src="img/buzos/antonu-buzo.png" class="d-block w-100" alt="...">
+                              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Buzo</h1>
+                              <p class="descripcionArticulo">Tela Deportivo Frisado, logo bordado.</p>
+                            </div>
+<!-- Agregar más elementos carousel-item según la cantidad de imágenes -->
                           </div>
+<!--                        Botones de control                  -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBuzosControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselBuzosControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="col -sm-6 mb-3 mb-sm-0">
+      <div class="card catalogo">
+        <img src="img/portadas-card/Remeras.png" class="card-img-top" alt="sección remeras">
+        <div class="card text-end">
+        <div class="card-body">
+          <h3 class="card-title">Remeras</h3>
+<!--             Botón para abrir el modal         -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleRemerasModal">Ver más</button>
+<!--                 Modal                       -->
+            <div class="modal fade" id="exampleRemerasModal" tabindex="-1" aria-labelledby="exampleRemerasModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+<!--                    Carousel                      -->
+                      <div id="carouselRemerasControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="catalogo" src="img/buzos/buzo-promoFiesta.png" class="d-block w-100" alt="...">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Buzo</h1>
+                            <p class="descripcionArticulo">Tela Polar Antipiling, logo bordado, medio cierre.</p>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="catalogo" src="img/camperas/camperaPromo.png" class="d-block w-100" alt="...">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Campera</h1>
+                            <p class="descripcionArticulo">Tela Polar Antipiling, logo bordado.</p>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="catalogo" src="img/camperas/camperaEN.png" class="d-block w-100" alt="...">
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Campera Térmica</h1>
+                            <p class="descripcionArticulo">Tela Trucker resinado impermeable, interior polar antipiling.</p>
+                          </div>
+<!-- Agregar más elementos carousel-item según la cantidad de imágenes -->
+                          </div>
+<!--                        Botones de control                  -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselRemerasControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselRemerasControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
                       </div>
                     </div>
                   </div>
                 </div>
-            </div>
-          </div>
-    </div>
-  
-    <div class="col -sm-6 mb-3 mb-sm-0">
-      <div class="card catalogo">
-          <img src="img/remeras.jpg" class="card-img-top" alt="sección remeras">
-        <div class="card-body">
-          <h3 class="card-title">Remeras</h3>
-          <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
+              </div>
+        </div>
         </div>
       </div>
-    </div>
-  </div> <!--Cierre Row Catalogo-->
+    </div> 
+  </div><!--Cierre Row Catalogo-->
 <!--           Sección Chombas               -->
   <div class="row catalogo2">
     <div class="col catalogo -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-          <img src="img/chomba.jpg" class="card-img-top" alt="sección chombas">
-        <div class="card-body">
-          <h3 class="card-title">Chombas</h3>
-          <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
-        </div>
+        <img src="img/portadas-card/Chombas.png" class="card-img-top" alt="sección chombas">
+          <div class="card text-end">
+            <div class="card-body">
+              <h3 class="card-title">Chombas</h3>
+<!--             Botón para abrir el modal         -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleChombasModal">Ver más</button>
+            </div>
+          </div>
       </div>
     </div>
 <!--           Sección Camisas               -->
     <div class="col -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-          <img src="img/camisas.jpg" class="card-img-top" alt="sección camisas">
-        <div class="card-body">
-          <h3 class="card-title">Camisas</h3>
-          <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
-        </div>
-    </div>
+        <img src="img/portadas-card/Camisas.png" class="card-img-top" alt="sección camisas">
+          <div class="card text-end">
+            <div class="card-body">
+              <h3 class="card-title">Camisas</h3>
+<!--             Botón para abrir el modal         -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleCamisasModal">Ver más</button>
+            </div>
+          </div>
+      </div>
     </div>
 <!--           Sección Delantales               -->
     <div class="col -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-          <img src="img/delantal.jpg" class="card-img-top" alt="sección delantales">
-        <div class="card-body">
-          <h3 class="card-title">Delantales</h3>
-          <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
-        </div>
+        <img src="img/portadas-card/Delantal.png" class="card-img-top" alt="sección delantales">
+          <div class="card text-end">
+            <div class="card-body">
+              <h3 class="card-title">Delantales</h3>
+<!--             Botón para abrir el modal         -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleDelantalesModal">Ver más</button>
+            </div>
+          </div>
       </div>
     </div>
 <!--           Sección Accesorios               -->
     <div class="col -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-          <img src="img/accesorios.jpg" class="card-img-top" alt="sección accesorios">
-        <div class="card-body">
-          <h3 class="card-title">Accesorios</h3>
-          <a href="#" class="btn btn-secondary btn-sm">Ver más</a>
-        </div>
+        <img src="img/portadas-card/Accesorios.png" class="card-img-top" alt="sección accesorios">
+          <div class="card text-end">
+            <div class="card-body">
+              <h3 class="card-title">Accesorios</h3>
+<!--             Botón para abrir el modal         -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleAccesoriosModal">Ver más</button>
+            </div>
+          </div>
       </div>
     </div>
   </div> <!--Cierre Row Catalogo2-->
@@ -388,25 +446,52 @@
 
 <!-- Section Tips de Lavado-->
 <section id="lavado">
-<div>
-  <div class="row tipslavado">
-    <h4>Tips de lavado</h4> 
-    <div class="lavado col-lg-8">
-      <ul>
-        <p class="tips-lavado">Entre más cuidas tu ropa, más te dura, por eso queremos compartir algunas recomendaciones para ayudarte a alargar la vida de tu ropa de trabajo.</p><br>
-        <p class="tips-lavado">A continuación encontrarás los mejores tips para el mejor cuidado de tu ropa.</p> 
-        <i class='bx bxs-washer' type='solid'></i><li class="lavado">Lavar con agua fría</li>
-        <img class="iconos-lavado" src="img/temp-water.png"></img><li class="lavado">Usar jabones neutros</li>
-        <li class="lavado">No usar cloro</li>
-        <li class="lavado">No secar con calor</li>
-        <li class="lavado">No frotar ni planchar sobre los estampados</li>
-      </ul>
+  <div>
+    <div class="row tipslavado">
+      <h4>Tips de lavado</h4> 
+      <p class="titulo-lavado">Entre más cuidas tu ropa, más te dura, por eso queremos compartir algunas recomendaciones para ayudarte a alargar la vida útil de tu ropa de trabajo.</p>
+      <p class="titulo-lavado">Ten en cuenta que no toda la indumentaria de trabajo es lavable, sino que algunas prendas requieren de un mantenimiento específico. Antes de proceder al lavado, es crucial reconocer el tipo de tela de cada prenda. Examine las etiquetas para identificar si son de algodón, poliéster, lana, seda, o cualquier otro material.</p>
+      <p class="titulo-lavado">Cada tejido tiene requerimientos de cuidado específicos que deben ser seguidos para preservar la calidad y apariencia de la ropa.</p>
+      <p class="titulo-lavado">A continuación encontrarás los mejores tips para el mejor cuidado de tu ropa:</p> 
+      <div class="row cuidados">
+        <div class="lavado col-lg-4">
+          <table>
+            <tr>
+              <td><img class="iconos-lavado" src="img/lavado/agua.ico" alt=""></td>
+              <th><p class="tips-lavado">Lavar con agua fria.</p></th>
+            </tr>
+            <tr>
+              <td><img class="iconos-lavado" src="img/lavado/jabonsuave.ico"></td>
+              <th><p class="tips-lavado">Usar jabones neutros.</p></th>
+            </tr>
+            <tr>
+              <td><img class="iconos-lavado" src="img/lavado/lavandina.ico" alt=""></td>
+              <th><p class="tips-lavado">No usar cloro.</p></th>
+            </tr>
+          </table>
+        </div>
+        <div class="lavado col-lg-4">
+          <table>
+            <tr>
+              <td><img class="iconos-lavado" src="img/lavado/retorcer.ico" alt=""></td>
+              <th><p class="tips-lavado">No retorcer.</p></th>
+            </tr>
+            <tr>
+              <td><img class="iconos-lavado" src="img/lavado/maquinaSecado.ico" alt=""></td>
+              <th><p class="tips-lavado">No secar con calor.</p></th>
+            </tr>
+            <tr>
+              <td><img class="iconos-lavado" src="img/lavado/no-planchar.ico" alt=""></td>
+              <th><p class="tips-lavado">No frotar ni planchar sobre los estampados.</p></th>
+            </tr>
+          </table>
+        </div>
+        <div class="lavado col-lg-4">
+          <img class="img-lavado" src="img/lavado/imgLavado.png" alt="imagen lavarropas">
+        </div> 
+      </div>
     </div>
-  <div class="lavado col-lg-4">
-    <img class="img-lavado" src="img/lavado.png" alt="imagen lavarropas">
-  </div> 
   </div>
-</div>
 </section>
 
 <!-- Contacto-->
@@ -442,7 +527,7 @@
             <a href="https://wa.me/5492234399798" target="_blank"><i class='bx bxl-whatsapp'></i></a> 
         </div>
     </div>
-        <p>Desarrollado con <i class='bx bx-heart'></i>por Dai Caffiero <i class="fa-regular fa-lightbulb"></i> Designer-2024&copy;</p>
+        <p><a class="firma" href="https://www.instagram.com/daicaffiero_designer/" target="_blank">Desarrollado con <i class='bx bx-heart'></i>por Dai Caffiero <i class="fa-regular fa-lightbulb"></i> Designer-2024&copy;</a></p>
 </footer>
 </body>
 </html>
