@@ -302,3 +302,19 @@ a.firma{
 .bx-heart:hover, .fa-regular:hover, .fa-lightbulb:hover{
     font-size: 1.3rem;
 }
+
+/* Estilos para dispositivos pequeños */
+@media (max-width: 767.98px) {
+    .modal-dialog, .carousel-item {
+      height: 100vh; /* 100% de la altura de la ventana gráfica */
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Centra el contenido verticalmente */
+    }
+  
+    .modal-content {
+      height: 100%; /* 100% de la altura del .modal-dialog */
+      border-radius: 0; /* Opcional: elimina los bordes redondeados */
+    }
+  }
