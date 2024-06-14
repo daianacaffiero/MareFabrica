@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NN96W9D94V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NN96W9D94V');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Link de Bootstrap-->
@@ -15,7 +24,6 @@
     <script src="https://kit.fontawesome.com/24d3b6d56b.js" crossorigin="anonymous"></script>
     <!--BoxIcon-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
     <title>Mare Fábrica</title>
     <!--Icono de pestaña-->
     <link rel="icon" href="img/iconoMare.ico">
@@ -26,7 +34,7 @@
 <!-- Nav Bar  -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
   <a class="navbar-brand" href="index.html">
-    <img src="img/1-logoFábrica.png" alt="logo de marca">
+    <img src="img/logoFabrica.png" alt="logo de marca">
   </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -58,7 +66,7 @@
       </div>
   </nav>
 
-<!-- Home--> <!--VER COMO ACHICAR EL CAROUSEL-->
+<!--             Home           --> 
 <section id="home">
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators"> 
@@ -100,14 +108,14 @@
     <div class="card mb-3 sin-borde" style="max-width: 100%;">
       <div class="row g-0">
         <div class="col-lg-6">
-          <img src="img/Fábrica.png" class="img-fluid rounded-start" alt="imagenFábrica">
-          <h5 class="card-title">Quienes Somos</h5>
+            <img src="img/Fabrica.png" class="img-fluid rounded-start" alt="imagenFábrica">
+            <h5 class="card-title">Quienes Somos</h5>
             <p class="card-text">Fábrica de ropa de Trabajo.</p>
             <p class="card-text">Somos una fábrica Marplatense especializada en la confección de ropa de trabajo de alta calidad. <br> Nuestra misión es proporcionar soluciones funcionales y seguras para quienes desempeñan trabajos exigentes. Cada prenda que producimos se diseña pensando en la comodidad, la durabilidad y la protección de quienes la usan. Con años de experiencia en la industria, nos enorgullecemos de ofrecer un amplio catálogo de prendas, desde uniformes industriales hasta equipo de protección personal, que cumplen con los estándares más exigentes. <br> En nuestra fábrica, la calidad es nuestra prioridad, y trabajamos incansablemente para satisfacer las necesidades de nuestros clientes y garantizar su seguridad en el lugar de trabajo.</p>
         </div>
         <div class="col-lg-6">
-          <div class="card-body">
-            <video src="img/VideoConMusica.mp4"controls></video>
+          <div class="card-body video">
+            <iframe class="video" width="600" height="400" src="https://www.youtube.com/embed/ac25IJ0I9As?si=IABkpMoyKXZCwYj_" title="Presentación Mare Fábrica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
           </div>
         </div>
       </div>
@@ -119,7 +127,7 @@
   <div class="row catalogo">
     <div class="col catalogo -sm-6 mb-3 mb-sm-0"> <!-- Sección Pantalones -->
       <div class="card catalogo">
-          <img src="img/pantalones.jpg" class="card-img-top" alt="sección pantalones">
+          <img src="img/portadas-card/Pantalones.jpg" class="card-img-top" alt="sección pantalones">
         <div class="card text-end">
           <div class="card-body">
             <h3 class="card-title">Pantalones</h3>
@@ -127,7 +135,7 @@
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver más</button>
 <!--             Modal           -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-xl">
+                  <div class="modal-dialog modal-xl  modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-body">
                         <div class="modal-header">
@@ -255,7 +263,7 @@
 <!--               Sección Camperas            -->
     <div class="col catalogo -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-          <img src="img/camperas.jpg" class="card-img-top" alt="sección camperas">
+          <img src="img/portadas-card/camperas.jpg" class="card-img-top" alt="sección camperas">
         <div class="card text-end">
           <div class="card-body ">
             <h3 class="card-title">Camperas</h3>
@@ -263,7 +271,7 @@
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleCamperaModal">Ver más</button>
 <!--                 Modal                       -->
                 <div class="modal fade" id="exampleCamperaModal" tabindex="-1" aria-labelledby="exampleCamperaModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-xl">
+                  <div class="modal-dialog modal-xl  modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-body">
                         <div class="modal-header">
@@ -374,7 +382,7 @@
 <!--           Sección Buzos            -->
     <div class="col -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-          <img src="img/buzos.jpg" class="card-img-top" alt="sección buzos">
+          <img src="img/portadas-card/Buzos.jpg" class="card-img-top" alt="sección buzos">
         <div class="card text-end">  
           <div class="card-body">
             <h3 class="card-title">Buzos</h3>
@@ -382,7 +390,7 @@
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleBuzosModal">Ver más</button>
 <!--                 Modal                       -->
               <div class="modal fade" id="exampleBuzosModal" tabindex="-1" aria-labelledby="exampleBuzosModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
+                <div class="modal-dialog modal-xl  modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-body">
                       <div class="modal-header">
@@ -443,7 +451,7 @@
 <!--              Sección Remeras          -->
     <div class="col -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-        <img src="img/remeras.jpg" class="card-img-top" alt="sección remeras">
+        <img src="img/portadas-card/Remeras.jpg" class="card-img-top" alt="sección remeras">
         <div class="card text-end">
         <div class="card-body">
           <h3 class="card-title">Remeras</h3>
@@ -451,7 +459,7 @@
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleRemerasModal">Ver más</button>
 <!--                 Modal                       -->
             <div class="modal fade" id="exampleRemerasModal" tabindex="-1" aria-labelledby="exampleRemerasModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
+              <div class="modal-dialog modal-xl  modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-body">
                     <div class="modal-header">
@@ -509,7 +517,7 @@
   <div class="row catalogo2">
     <div class="col catalogo -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-        <img src="img/chomba.jpg" class="card-img-top" alt="sección chombas">
+        <img src="img/portadas-card/Chombas.jpg" class="card-img-top" alt="sección chombas">
           <div class="card text-end">
             <div class="card-body">
               <h3 class="card-title">Chombas</h3>
@@ -517,7 +525,7 @@
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleChombasModal">Ver más</button>
 <!--                 Modal                       -->
                    <div class="modal fade" id="exampleChombasModal" tabindex="-1" aria-labelledby="exampleChombaseModalLabel" aria-hidden="true">
-                      <div class="modal-dialog modal-xl">
+                      <div class="modal-dialog modal-xl  modal-dialog-centered">
                         <div class="modal-content">
                           <div class="modal-body">
                             <div class="modal-header">
@@ -573,7 +581,7 @@
 <!--           Sección Camisas               -->
     <div class="col -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-        <img src="img/camisas.jpg" class="card-img-top" alt="sección camisas">
+        <img src="img/portadas-card/Camisas.jpg" class="card-img-top" alt="sección camisas">
           <div class="card text-end">
             <div class="card-body">
               <h3 class="card-title">Camisas</h3>
@@ -581,7 +589,7 @@
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleCamisasModal">Ver más</button>
                   <!--                 Modal                       -->
               <div class="modal fade" id="exampleCamisasModal" tabindex="-1" aria-labelledby="exampleCamisasModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
+                <div class="modal-dialog modal-xl  modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-body">
                       <div class="modal-header">
@@ -682,7 +690,7 @@
 <!--           Sección Chaquetas               -->
     <div class="col -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-        <img src="img/delantal.jpg" class="card-img-top" alt="sección chaquetas">
+        <img src="img/portadas-card/Chaquetas.jpg" class="card-img-top" alt="sección chaquetas">
           <div class="card text-end">
             <div class="card-body">
               <h3 class="card-title">Chaquetas</h3>
@@ -690,7 +698,7 @@
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleChaquetasModal">Ver más</button>
                   <!--                 Modal                       -->
               <div class="modal fade" id="exampleChaquetasModal" tabindex="-1" aria-labelledby="exampleChaquetasModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
+                <div class="modal-dialog modal-xl  modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-body">
                       <div class="modal-header">
@@ -737,7 +745,7 @@
 <!--           Sección Accesorios               -->
     <div class="col -sm-6 mb-3 mb-sm-0">
       <div class="card catalogo">
-        <img src="img/accesorios.jpg" class="card-img-top" alt="sección accesorios">
+        <img src="img/portadas-card/Accesorios.jpg" class="card-img-top" alt="sección accesorios">
           <div class="card text-end">
             <div class="card-body">
               <h3 class="card-title">Accesorios</h3>
@@ -745,7 +753,7 @@
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleAccesoriosModal">Ver más</button>
 <!--                 Modal                       -->
                   <div class="modal fade" id="exampleAccesoriosModal" tabindex="-1" aria-labelledby="exampleAccesoriosModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-xl">
+                    <div class="modal-dialog modal-xl  modal-dialog-centered">
                       <div class="modal-content">
                         <div class="modal-body">
                           <div class="modal-header">
@@ -825,7 +833,7 @@
       <p class="talles">Ofrecemos tablas de tallas para ayudarte a elegir el tamaño correcto de tus prendas según tus propias medidas corporales. Es importante tener en cuenta que las medidas en las tablas corresponden a tu cuerpo, NO a la prenda en sí. <br>Para tomar medidas precisas, solo necesitas un centímetro flexible. Es recomendable medirse usando solo ropa interior o prendas ajustadas. Al medir, asegúrate de que la cinta esté un poco ajustada, pero no apretada; no debe hundirse ni marcar la piel.<br>Todas las medidas se presentan en centímetros y son medidas de tu propio cuerpo, no de la prenda. Nuestra tabla es solo una guía para encontrar la talla que necesitas. Recuerda que probar las prendas siempre es la mejor manera de encontrar el ajuste perfecto.<br>Ofrecemos la opción de enviar muestras finales en todos los tamaños para garantizar el pedido correcto de prendas. Podemos confeccionar una muestra final de cada tamaño y enviarla anticipadamente para que se tomen las medidas adecuadas. Esto le permite reunir a su personal en un horario conveniente para recopilar la información necesaria.<br>Para elegir esta alternativa, es necesario que el pedido sea de una cantidad significativa que justifique el proceso, y que la compra esté confirmada de manera sólida. Es importante evitar que la ropa quede demasiado ajustada para asegurar un ajuste adecuado.<br>¡Gracias por elegirnos! <br>Si tienes alguna pregunta o necesitas asistencia adicional, no dudes en contactarnos.</p>  
     </div>
     <div class="talles col-lg-5">
-        <img class="medidas" src="img/Toma de talles.png" alt="toma de talles masculino">
+        <img class="medidas" src="img/Tomadetalles.png" alt="toma de talles">
          <!-- Button modal -->
     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
       <div class="modal-dialog modal-fullscreen-xl-down">
@@ -835,7 +843,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <img class="talles" src="img/tablaTalleDama.png" alt="">
+            <img class="talles" src="img/tablaTalleDama.jpg" alt="">
           </div>
           <div class="modal-footer">
             <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Tabla Hombre</button>
@@ -851,7 +859,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <img class="talles" src="img/TablaTalleHombre.png" alt="">
+            <img class="talles" src="img/TablaTalleHombre.jpg" alt="">
           </div>
           <div class="modal-footer">
             <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Tabla Dama</button>
@@ -861,9 +869,7 @@
     </div>
     <button class="tabla btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Tabla de talles</button>
     </div>
-   </div>
-
-  
+   </div> 
   </div><!--Div Talles-->
 </section>
 
