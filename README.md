@@ -28,7 +28,3 @@
   <li>LinkedIn: https://www.linkedin.com/in/daiana-b-caffiero/</li>
   <li>Instagram: https://www.instagram.com/daicaffiero_designer</li>
 
-<h1> 🖼️ Mockups del sitio </h1>
-
-
-
