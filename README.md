@@ -20,8 +20,7 @@
 </ul>
 
 <h3> Ver sitio web de Mare Indumentaria: </h3>
-Probar [Aqui](https://www.mareindumentaria.com.ar/)
-<h2></h2>
+<h2>https://www.mareindumentaria.com.ar</h2>
 
 <h1>🔹 Autor: </h1>
 <h2> - Daiana Caffiero – </h2>
