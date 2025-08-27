@@ -20,7 +20,8 @@
 </ul>
 
 <h3> Ver sitio web de Mare Indumentaria: </h3>
-<h2>https://www.mareindumentaria.com.ar</h2>
+Probar [Aqui][(https://www.mareindumentaria.com.ar)]
+<h2></h2>
 
 <h1>🔹 Autor: </h1>
 <h2> - Daiana Caffiero – </h2>
@@ -29,6 +30,6 @@
   <li>Instagram: https://www.instagram.com/daicaffiero_designer</li>
 
 <h1> 🖼️ Mockups del sitio </h1>
-C:\Users\daian\OneDrive\Documents\DISEÑO\Diseño-UX-UI\MareFabrica\presentación-Mockup MareFábrica
+
 
 
